@@ -63,6 +63,20 @@ NHS-chatbot/
 
 ---
 
+How to run this
+Save the above code in a file named app.py
+
+Run APP :
+
+In VS code Terminal
+pip install streamlit sentence-transformers faiss-cpu pandas
+streamlit run app.py
+Open the browser URL that Streamlit prints
+
+Upload your train.csv and test.csv in the sidebar
+
+Ask your healthcare questions — get matched answers!
+
 ## 🧠 Future Development
 
 Currently, this is a **retrieval-based system**, meaning the answers must exist in the dataset.
