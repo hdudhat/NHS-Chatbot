@@ -70,6 +70,7 @@ Run APP :
 
 In VS code Terminal
 pip install streamlit sentence-transformers faiss-cpu pandas
+
 streamlit run app.py
 Open the browser URL that Streamlit prints
 
